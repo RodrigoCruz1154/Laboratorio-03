@@ -1,6 +1,7 @@
 table{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 td {
     width: 120px;
@@ -8,10 +9,36 @@ td {
 }
 .negro{
     background: black;
-    color: white;
+    color: black;
     text-align: center;
 }
 .blanco{    
     background: white;
     text-align: center;
+    color: white;
+}
+.nombre{
+    text-align: left;
+}
+.carne{
+    text-align: center;
+}
+.git{
+    text-align: right;
+}
+header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+td:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+td:hover .blanco{
+    background-color: rgba(255, 0, 0, 0.5);
+    color: black;
+}
+td:hover .negro{
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
 }
